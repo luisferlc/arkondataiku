@@ -107,7 +107,7 @@
           "type": "CreateColumnWithGREL",
           "params": {
             "expression": "0_Charter_sum/Charter_total * 100",
-            "column": "Scheduled_US_mktshare"
+            "column": "Charter_US_mktshare"
           },
           "alwaysShowComment": false
         }
@@ -182,6 +182,7 @@
     "Charter_IN_mktshare": 183,
     "Scheduled_IN_mktshare": 197,
     "Scheduled_US_mktshare": 197,
+    "Charter_US_mktshare": 183,
     "0_Scheduled_sum": 128,
     "Scheduled_total": 128,
     "newcolumn_expression": 165,
