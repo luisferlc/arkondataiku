@@ -49,9 +49,9 @@
       "copySelectionFromScript": true,
       "engineType": "LINO",
       "def": {
-        "type": "grouped_columns",
+        "type": "stacked_columns",
         "variant": "normal",
-        "name": "Avg. of Total by IATA_code",
+        "name": "Avg. of Scheduled by IATA_code",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -74,19 +74,30 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of Total, descending"
+                "label": "Average of Scheduled, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of Total, ascending",
+                "label": "Average of Scheduled, ascending",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of Charter, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 1,
+                "label": "Average of Charter, ascending",
                 "sortAscending": true
               }
             ],
             "sort": {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of Total, descending"
+              "label": "Average of Scheduled, descending"
             }
           }
         ],
@@ -95,7 +106,18 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "Total",
+            "column": "Scheduled",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          },
+          {
+            "column": "Charter",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -183,6 +205,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAA1klEQVRoge3UQQqCQBTG8XeLiIKBdkEtPEYdSKk2uegCXiNyYQqBhkuv4jFa1EBBpqDja958f3ircfF+MgwRIlJBWurh3mWUAJYewNIDWHpOg1WQ3Z+TbLj3MtYn+DW765Z7L2MB7Co4ruoyrmp5D1kTWOzLDTDAwgIYYGG1gZf721QP966D1AZWfpp9+eZs7Q3oC1Z+crAKD3AP8PtwuxoDeCCwntWpmHhhHnlhHnFbicg8eOZf5r/OAXYBPOoPAfgPwV3P18dioccJcKebAbB0MELImh5FiqBs/7N+ewAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
