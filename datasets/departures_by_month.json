@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595976675566
+    "lastModifiedOn": 1595976820180
   },
   "creationTag": {
     "versionNumber": 0,
@@ -109,6 +109,10 @@
       {
         "name": "Charter_total",
         "type": "bigint"
+      },
+      {
+        "name": "Charter_US_mktshare",
+        "type": "double"
       },
       {
         "name": "Charter_IN_mktshare",
