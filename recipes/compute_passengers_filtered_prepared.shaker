@@ -25,7 +25,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -34,7 +37,24 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "fg_apt_id": 100,
+    "usg_apt": 100,
+    "fg_apt": 100,
+    "carriergroup": 105,
+    "data_dte": 106,
+    "type": 100,
+    "usg_wac": 100,
+    "Charter": 100,
+    "airlineid": 100,
+    "Scheduled": 100,
+    "Month": 100,
+    "carrier": 100,
+    "Year": 100,
+    "usg_apt_id": 100,
+    "Total": 100,
+    "fg_wac": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
