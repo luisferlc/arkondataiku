@@ -92,11 +92,11 @@
   "name": "International Flight Reporting\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595980573956
+    "lastModifiedOn": 1595980575259
   },
   "creationTag": {
     "versionNumber": 0,
