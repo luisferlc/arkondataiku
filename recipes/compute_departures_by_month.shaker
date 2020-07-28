@@ -25,8 +25,151 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "name": "Scheduled",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "0_Scheduled_sum + 1_Scheduled_sum",
+            "column": "Scheduled_total"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "1_Scheduled_sum/Scheduled_total * 100",
+            "column": "Scheduled_IN_mktshare"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "0_Scheduled_sum/Scheduled_total * 100",
+            "column": "Scheduled_US_mktshare"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Charter",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "0_Charter_sum + 1_Charter_sum",
+            "column": "Charter_total"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "1_Charter_sum/Charter_total * 100",
+            "column": "Charter_IN_mktshare"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "0_Charter_sum/Charter_total * 100",
+            "column": "Scheduled_US_mktshare"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "name": "Total",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "0_Total_sum + 1_Total_sum",
+            "column": "Total"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "1_Total_sum/Total * 100",
+            "column": "Charter_IN_mktshare"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "0_Total_sum/Total * 100",
+            "column": "Scheduled_US_mktshare"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [],
+        "keep": false,
+        "appliesTo": "PATTERN",
+        "appliesToPattern": "^[0-1]_\\w*"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -34,7 +177,23 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "1_Scheduled_sum": 128,
+    "Charter_IN_mktshare": 183,
+    "Scheduled_IN_mktshare": 197,
+    "Scheduled_US_mktshare": 197,
+    "0_Scheduled_sum": 128,
+    "Scheduled_total": 128,
+    "newcolumn_expression": 165,
+    "0_Charter_sum": 113,
+    "1_Charter_sum": 113,
+    "0_Total_sum": 100,
+    "Month": 100,
+    "Year": 100,
+    "Charter_total": 113,
+    "1_Total_sum": 100,
+    "Total": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
