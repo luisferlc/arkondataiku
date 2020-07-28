@@ -11,6 +11,9 @@
           "map": {
             "passengers_filtered": {
               "repartition": 10
+            },
+            "departures_filtered": {
+              "repartition": 10
             }
           }
         },
@@ -69,11 +72,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595968991397
+    "lastModifiedOn": 1595969124541
   },
   "creationTag": {
     "versionNumber": 0,
