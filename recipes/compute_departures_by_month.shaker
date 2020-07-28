@@ -138,7 +138,7 @@
           "type": "CreateColumnWithGREL",
           "params": {
             "expression": "1_Total_sum/Total * 100",
-            "column": "Charter_IN_mktshare"
+            "column": "Total_IN_mktshare"
           },
           "alwaysShowComment": false
         },
@@ -149,7 +149,7 @@
           "type": "CreateColumnWithGREL",
           "params": {
             "expression": "0_Total_sum/Total * 100",
-            "column": "Scheduled_US_mktshare"
+            "column": "Total_US_mktshare"
           },
           "alwaysShowComment": false
         }
@@ -192,8 +192,10 @@
     "Month": 100,
     "Year": 100,
     "Charter_total": 113,
+    "Total_US_mktshare": 169,
     "1_Total_sum": 100,
-    "Total": 100
+    "Total": 100,
+    "Total_IN_mktshare": 169
   },
   "sorting": [],
   "globalSearchQuery": "",
