@@ -51,8 +51,8 @@
       "def": {
         "type": "stacked_columns",
         "variant": "normal",
-        "name": "Avg. of Scheduled by IATA_code",
-        "userEditedName": false,
+        "name": "Passengers in Scheduled/Charter Flights on 2017",
+        "userEditedName": true,
         "genericDimension0": [
           {
             "column": "IATA_code",
@@ -158,6 +158,7 @@
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
+        "xAxisLabel": "",
         "hexbinRadius": 20,
         "hexbinNumber": 20,
         "hexbinRadiusMode": "NUM_HEXAGONS",
@@ -168,8 +169,8 @@
         "animationRepeat": true,
         "colorOptions": {
           "singleColor": "#2678B1",
-          "transparency": 0.75,
-          "colorPalette": "default",
+          "transparency": 1.0,
+          "colorPalette": "dku_pastel2",
           "ccScaleMode": "NORMAL",
           "customPalette": {
             "id": "__dku_custom__",
@@ -205,7 +206,7 @@
           "gridLonDeg": 0.5,
           "gridLatDeg": 0.5
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAA1klEQVRoge3UQQqCQBTG8XeLiIKBdkEtPEYdSKk2uegCXiNyYQqBhkuv4jFa1EBBpqDja958f3ircfF+MgwRIlJBWurh3mWUAJYewNIDWHpOg1WQ3Z+TbLj3MtYn+DW765Z7L2MB7Co4ruoyrmp5D1kTWOzLDTDAwgIYYGG1gZf721QP966D1AZWfpp9+eZs7Q3oC1Z+crAKD3AP8PtwuxoDeCCwntWpmHhhHnlhHnFbicg8eOZf5r/OAXYBPOoPAfgPwV3P18dioccJcKebAbB0MELImh5FiqBs/7N+ewAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAA20lEQVRoge3UPQqDQBCG4b1JYpEyx0gYFrxE1E0Ri3imXMTOk6TWlYCFiFaKBIyCPxtnvxemmmYekRUCCZEFVLdj+pZNAph7AHMPYO5ZDdaKSq2oTL3rzfRdq9UHd+OTZ/qu1QLYVnCVqLpKFL+HbAjM9uUGGGBmAQwws8bAxZOOReg6Reg6pm9dpDFwFpD+3qc+vXf7B8wFp4peu8IDPAPcH9OuwQBeCNztH/KQRzLOIxmbtgoh1gfr++X0aw+wDeBNPwjAfwieuv+E8tyOFeBJfwbA3MEIod3UAMnK6xXNXp2oAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
