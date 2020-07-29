@@ -56,7 +56,7 @@
         ]
       },
       "title": "Passengers",
-      "showTitle": false
+      "showTitle": true
     },
     {
       "id": "3FmsKl9",
@@ -81,7 +81,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "title": "Comparation bewtween 2017 and 2016",
+            "title": "Comparation bewtween 2016 and 2017",
             "insightId": "h0s1RSe",
             "insightType": "dataset_table",
             "displayMode": "INSIGHT",
@@ -105,7 +105,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "title": "Ratio of monthly change of departures between 2017 and 2016",
+            "title": "Ratio of monthly change of departures between 2016 and 2017",
             "insightId": "A7yUDlz",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -122,11 +122,11 @@
   "name": "International Flight Reporting\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 23,
+    "versionNumber": 24,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595981788115
+    "lastModifiedOn": 1595981840916
   },
   "creationTag": {
     "versionNumber": 0,
