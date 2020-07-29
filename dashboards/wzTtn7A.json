@@ -32,10 +32,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 6,
-              "width": 2,
-              "height": 2
+              "top": 3,
+              "left": 0,
+              "width": 10,
+              "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -47,6 +47,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
+            "title": "Total volume of passengers in scheduled/charted flights in 2017",
             "insightId": "AO8Z5KC",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -121,11 +122,11 @@
   "name": "Luis.FLópezCorrales - International Flight Reporting",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 35,
+    "versionNumber": 36,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595982990601
+    "lastModifiedOn": 1595983057440
   },
   "creationTag": {
     "versionNumber": 0,
