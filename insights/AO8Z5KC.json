@@ -193,11 +193,11 @@
   "name": "Sum of Scheduled by IATA_code on passengers_by_airport_top20",
   "dashboardCreationId": "wzTtn7A",
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595982929561
+    "lastModifiedOn": 1595982981457
   },
   "creationTag": {
     "versionNumber": 0,
