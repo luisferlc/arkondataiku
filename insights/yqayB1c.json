@@ -28,13 +28,65 @@
     "def": {
       "type": "grouped_columns",
       "variant": "normal",
-      "name": "Chart",
+      "name": "Avg. of Total by IATA_code",
       "userEditedName": false,
-      "genericDimension0": [],
+      "genericDimension0": [
+        {
+          "column": "IATA_code",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true,
+              "$$hashKey": "object:6085"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of Total, descending",
+              "$$hashKey": "object:6084"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of Total, ascending",
+              "sortAscending": true,
+              "$$hashKey": "object:6086"
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Average of Total, descending",
+            "$$hashKey": "object:6084"
+          }
+        }
+      ],
       "genericDimension1": [],
       "facetDimension": [],
       "animationDimension": [],
-      "genericMeasures": [],
+      "genericMeasures": [
+        {
+          "column": "Total",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
       "xDimension": [],
       "yDimension": [],
       "uaXDimension": [],
@@ -52,6 +104,7 @@
       "tooltipMeasures": [],
       "boxplotBreakdownDim": [],
       "boxplotValue": [],
+      "filters": [],
       "axis1LogScale": false,
       "axis2LogScale": false,
       "includeZero": true,
@@ -63,7 +116,7 @@
       "strokeWidth": 1,
       "fillOpacity": 0.6,
       "showXAxisLabel": true,
-      "showYAxisLabel": true,
+      "showYAxisLabel": false,
       "hexbinRadius": 20,
       "hexbinNumber": 20,
       "hexbinRadiusMode": "NUM_HEXAGONS",
@@ -93,6 +146,7 @@
         "defaultRadius": 5.0,
         "singleShape": "FILLED_CIRCLE"
       },
+      "computeMode": "NORMAL",
       "xAxisMode": "NORMAL",
       "yAxisMode": "NORMAL",
       "pieOptions": {
@@ -118,14 +172,14 @@
   },
   "owner": "admin",
   "listed": false,
-  "name": "Chart on passengers_by_airport_top20",
+  "name": "Avg. of Total by IATA_code on passengers_by_airport_top20",
   "dashboardCreationId": "wzTtn7A",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595981197191
+    "lastModifiedOn": 1595981240698
   },
   "creationTag": {
     "versionNumber": 0,
