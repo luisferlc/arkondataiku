@@ -115,6 +115,38 @@
       },
       "title": "Departures",
       "showTitle": true
+    },
+    {
+      "id": "FRDcXET",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 2,
+              "height": 2
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "K3fFciK",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "title": "Departures",
+      "showTitle": false
     }
   ],
   "owner": "admin",
@@ -122,11 +154,11 @@
   "name": "International Flight Reporting\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595982148492
+    "lastModifiedOn": 1595982169188
   },
   "creationTag": {
     "versionNumber": 0,
