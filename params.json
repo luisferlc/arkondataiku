@@ -159,7 +159,7 @@
     }
   },
   "name": "International Flight Reporting",
-  "projectStatus": "Sandbox",
+  "projectStatus": "In use",
   "imgPattern": 1,
   "metrics": {
     "probes": [],
@@ -216,11 +216,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595983713257
+    "lastModifiedOn": 1595983787401
   },
   "creationTag": {
     "versionNumber": 0,
