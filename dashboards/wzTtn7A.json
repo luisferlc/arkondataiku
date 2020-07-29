@@ -10,7 +10,7 @@
               "top": 0,
               "left": 0,
               "width": 6,
-              "height": 4
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -23,7 +23,8 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "oDVYNQU",
+            "title": "Busiest airports by volume of international passengers",
+            "insightId": "Idp372u",
             "insightType": "dataset_table",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
@@ -97,11 +98,11 @@
   "name": "International Flight Reporting\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595981138768
+    "lastModifiedOn": 1595981188296
   },
   "creationTag": {
     "versionNumber": 0,
