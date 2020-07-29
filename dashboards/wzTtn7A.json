@@ -47,7 +47,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "title": "Total flights in 2017 by airport",
+            "title": "Total volume of passengers in 2017 by airport",
             "insightId": "yqayB1c",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -122,11 +122,11 @@
   "name": "International Flight Reporting\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595981755170
+    "lastModifiedOn": 1595981774505
   },
   "creationTag": {
     "versionNumber": 0,
