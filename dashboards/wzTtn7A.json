@@ -138,7 +138,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "insightId": "K3fFciK",
+            "insightId": "T7kyvQX",
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
@@ -151,14 +151,14 @@
   ],
   "owner": "admin",
   "listed": true,
-  "name": "International Flight Reporting\u0027s default dashboard",
+  "name": "Luis.FLópezCorrales - International Flight Reporting",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 30,
+    "versionNumber": 31,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595982366114
+    "lastModifiedOn": 1595982424566
   },
   "creationTag": {
     "versionNumber": 0,
