@@ -23,7 +23,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "title": "Busiest airports by volume of international passengers",
+            "title": "Busiest airports by volume of international passengers in 2017",
             "insightId": "Idp372u",
             "insightType": "dataset_table",
             "displayMode": "INSIGHT",
@@ -32,10 +32,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 6,
-              "width": 2,
-              "height": 2
+              "top": 3,
+              "left": 0,
+              "width": 8,
+              "height": 4
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -47,6 +47,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
+            "title": "Total flights in 2017 grouped by airport",
             "insightId": "yqayB1c",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -121,11 +122,11 @@
   "name": "International Flight Reporting\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595981302259
+    "lastModifiedOn": 1595981382835
   },
   "creationTag": {
     "versionNumber": 0,
