@@ -3,14 +3,14 @@
   "centileSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
-  "defaultOutputIndex": 1,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "defaultOutputIndex": -1,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
@@ -18,17 +18,18 @@
   "randomSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "randomColumnsSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
+  "mode": "FILTERS",
   "centileTDigest": false,
   "valueSplits": [
     {
@@ -88,7 +89,56 @@
       "filter": {
         "uiData": {
           "mode": "\u0026\u0026",
-          "conditions": []
+          "conditions": [
+            {
+              "input": "Year",
+              "col": "Month",
+              "num": 2017,
+              "operator": "\u003d\u003d [number]"
+            }
+          ]
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "Year",
+                "type": "bigint"
+              },
+              {
+                "name": "Month",
+                "type": "bigint"
+              },
+              {
+                "name": "0_Scheduled_sum",
+                "type": "bigint"
+              },
+              {
+                "name": "0_Charter_sum",
+                "type": "bigint"
+              },
+              {
+                "name": "0_Total_sum",
+                "type": "bigint"
+              },
+              {
+                "name": "1_Scheduled_sum",
+                "type": "bigint"
+              },
+              {
+                "name": "1_Charter_sum",
+                "type": "bigint"
+              },
+              {
+                "name": "1_Total_sum",
+                "type": "bigint"
+              }
+            ]
+          },
+          "validated": true,
+          "fullyTranslated": false,
+          "ok": false,
+          "message": "Filter expression is invalid"
         },
         "distinct": false,
         "enabled": true
