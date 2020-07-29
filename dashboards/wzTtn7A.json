@@ -32,10 +32,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
-              "left": 0,
-              "width": 8,
-              "height": 4
+              "top": 0,
+              "left": 6,
+              "width": 2,
+              "height": 2
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -47,8 +47,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "title": "Total volume of passengers in 2017 by airport",
-            "insightId": "yqayB1c",
+            "insightId": "AO8Z5KC",
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
@@ -115,38 +114,6 @@
       },
       "title": "Departures",
       "showTitle": true
-    },
-    {
-      "id": "FRDcXET",
-      "grid": {
-        "tiles": [
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": 0,
-              "left": 0,
-              "width": 2,
-              "height": 2
-            },
-            "clickAction": "OPEN_INSIGHT",
-            "tileParams": {
-              "showXAxis": true,
-              "showYAxis": true,
-              "showLegend": false,
-              "showTooltips": true,
-              "autoPlayAnimation": true
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "T7kyvQX",
-            "insightType": "chart",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          }
-        ]
-      },
-      "title": "Departures",
-      "showTitle": false
     }
   ],
   "owner": "admin",
@@ -154,11 +121,11 @@
   "name": "Luis.FLópezCorrales - International Flight Reporting",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 33,
+    "versionNumber": 34,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595982850970
+    "lastModifiedOn": 1595982884852
   },
   "creationTag": {
     "versionNumber": 0,
