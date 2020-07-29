@@ -146,7 +146,7 @@
       "colorOptions": {
         "singleColor": "#2678B1",
         "transparency": 1.0,
-        "colorPalette": "dku_deuteranopia1",
+        "colorPalette": "dku_pastel1",
         "ccScaleMode": "NORMAL",
         "customPalette": {
           "id": "__dku_custom__",
@@ -193,11 +193,11 @@
   "name": "Sum of Scheduled by IATA_code on passengers_by_airport_top20",
   "dashboardCreationId": "wzTtn7A",
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595982912481
+    "lastModifiedOn": 1595982914376
   },
   "creationTag": {
     "versionNumber": 0,
