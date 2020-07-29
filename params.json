@@ -160,6 +160,7 @@
   },
   "name": "International Flight Reporting",
   "projectStatus": "In use",
+  "imgColor": "#465a64",
   "imgPattern": 1,
   "metrics": {
     "probes": [],
@@ -216,11 +217,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595983787401
+    "lastModifiedOn": 1595989177508
   },
   "creationTag": {
     "versionNumber": 0,
