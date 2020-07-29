@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595982090338
+    "lastModifiedOn": 1595982107607
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,40 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "Year",
+        "type": "bigint"
+      },
+      {
+        "name": "Month",
+        "type": "bigint"
+      },
+      {
+        "name": "0_Scheduled_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "0_Charter_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "0_Total_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "1_Scheduled_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "1_Charter_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "1_Total_sum",
+        "type": "bigint"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
